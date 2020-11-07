@@ -25,8 +25,6 @@ REDIS_PORT = 6379
 REDIS_PASSWORD =
 ```
 
-note: for MIDTRANS_TOKEN value, you can encode "**your_server_key:**" to base64.
-
 * Then run this command
 
 ```
