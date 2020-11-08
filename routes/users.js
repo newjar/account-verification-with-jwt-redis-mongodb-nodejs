@@ -9,7 +9,7 @@ router.get('/', (req, res, next) => {
   res.send('List users');
 });
 
-router.post('/', basicVanillaAuth, async (req, res) => {
+router.post('/register', basicVanillaAuth, async (req, res) => {
   const payload = req.body;
   const isValidatePayload = await validator.isValidPayload(payload, commandModel.userSchema);
 
